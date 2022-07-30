@@ -2,6 +2,7 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  buildModules: ['@pinia/nuxt', '@formkit/nuxt'],
   build: {
     postcss: {
       postcssOptions: {
@@ -12,6 +13,9 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  serverMiddleware: ['~/server-middleware/auth'],
+
   css: ['~/assets/css/tailwind.css'],
 
   app: {

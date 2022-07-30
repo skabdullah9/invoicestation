@@ -2,12 +2,14 @@
   <NuxtLayout name="main">
     <div>
       <div class="grid w-full grid-cols-1 gap-4 xl:grid-cols-2 2xl:grid-cols-3">
-        <div class="rounded-lg bg-white p-4 shadow sm:p-6 2xl:col-span-2">
+        <div
+          class="max-h-min overflow-hidden rounded-lg bg-white p-4 shadow sm:p-6 2xl:col-span-2"
+        >
           <div class="mb-4 flex items-center justify-between">
             <div class="flex-shrink-0">
               <span
                 class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl"
-                >$45,385</span
+                >€45,385</span
               >
               <h3 class="text-base font-normal text-gray-500">
                 Earned this month
@@ -17,35 +19,20 @@
               class="flex flex-1 items-center justify-end text-base font-bold text-green-500"
             >
               12.5%
-              <svg
-                class="h-5 w-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5.293 7.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L6.707 7.707a1 1 0 01-1.414 0z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
             </div>
           </div>
-          <div id="main-chart" style="min-height: 435px">
+          <div id="main-chart" style="max-height: 400px">
             <div
               id="apexcharts0m0qswgrk"
-              class="apexcharts-canvas apexcharts0m0qswgrk apexcharts-theme-light"
-              style="width: 916px; height: 420px"
+              class="apexcharts-canvas apexcharts0m0qswgrk apexcharts-theme-light flex items-center justify-center"
             >
               <svg
                 id="SvgjsSvg1389"
-                width="916"
-                height="420"
                 xmlns="http://www.w3.org/2000/svg"
                 version="1.1"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 xmlns:svgjs="http://svgjs.dev"
-                class="apexcharts-svg apexcharts-zoomable"
+                class="apexcharts-svg apexcharts-zoomable aspect-square h-auto w-auto object-center"
                 xmlns:data="ApexChartsNS"
                 transform="translate(0, 0)"
                 style="background: transparent"
@@ -390,18 +377,7 @@
                       data:realIndex="0"
                     ></g>
                   </g>
-                  <line
-                    id="SvgjsLine1450"
-                    x1="0"
-                    y1="0"
-                    x2="834.8608245849609"
-                    y2="0"
-                    stroke="#b6b6b6"
-                    stroke-dasharray="0"
-                    stroke-width="1"
-                    stroke-linecap="butt"
-                    class="apexcharts-ycrosshairs"
-                  ></line>
+
                   <line
                     id="SvgjsLine1451"
                     x1="0"
@@ -481,8 +457,8 @@
                       class="apexcharts-text apexcharts-yaxis-label"
                       style="font-family: Inter, sans-serif"
                     >
-                      <tspan id="SvgjsTspan1418">$6600</tspan>
-                      <title>$6600</title>
+                      <tspan id="SvgjsTspan1418">€6600</tspan>
+                      <title>€6600</title>
                     </text>
                     <text
                       id="SvgjsText1419"
@@ -497,8 +473,8 @@
                       class="apexcharts-text apexcharts-yaxis-label"
                       style="font-family: Inter, sans-serif"
                     >
-                      <tspan id="SvgjsTspan1420">$6500</tspan>
-                      <title>$6500</title>
+                      <tspan id="SvgjsTspan1420">€6500</tspan>
+                      <title>€6500</title>
                     </text>
                     <text
                       id="SvgjsText1421"
@@ -513,8 +489,8 @@
                       class="apexcharts-text apexcharts-yaxis-label"
                       style="font-family: Inter, sans-serif"
                     >
-                      <tspan id="SvgjsTspan1422">$6400</tspan>
-                      <title>$6400</title>
+                      <tspan id="SvgjsTspan1422">€6400</tspan>
+                      <title>€6400</title>
                     </text>
                     <text
                       id="SvgjsText1423"
@@ -529,8 +505,8 @@
                       class="apexcharts-text apexcharts-yaxis-label"
                       style="font-family: Inter, sans-serif"
                     >
-                      <tspan id="SvgjsTspan1424">$6300</tspan>
-                      <title>$6300</title>
+                      <tspan id="SvgjsTspan1424">€6300</tspan>
+                      <title>€6300</title>
                     </text>
                     <text
                       id="SvgjsText1425"
@@ -545,8 +521,8 @@
                       class="apexcharts-text apexcharts-yaxis-label"
                       style="font-family: Inter, sans-serif"
                     >
-                      <tspan id="SvgjsTspan1426">$6200</tspan>
-                      <title>$6200</title>
+                      <tspan id="SvgjsTspan1426">€6200</tspan>
+                      <title>€6200</title>
                     </text>
                     <text
                       id="SvgjsText1427"
@@ -561,8 +537,8 @@
                       class="apexcharts-text apexcharts-yaxis-label"
                       style="font-family: Inter, sans-serif"
                     >
-                      <tspan id="SvgjsTspan1428">$6100</tspan>
-                      <title>$6100</title>
+                      <tspan id="SvgjsTspan1428">€6100</tspan>
+                      <title>€6100</title>
                     </text>
                     <text
                       id="SvgjsText1429"
@@ -577,8 +553,8 @@
                       class="apexcharts-text apexcharts-yaxis-label"
                       style="font-family: Inter, sans-serif"
                     >
-                      <tspan id="SvgjsTspan1430">$6000</tspan>
-                      <title>$6000</title>
+                      <tspan id="SvgjsTspan1430">€6000</tspan>
+                      <title>€6000</title>
                     </text>
                   </g>
                 </g>
@@ -586,10 +562,10 @@
               </svg>
               <div class="apexcharts-legend" style="max-height: 210px"></div>
               <div class="apexcharts-tooltip apexcharts-theme-light">
-                <div
+                <!-- <div
                   class="apexcharts-tooltip-title"
                   style="font-family: Inter, sans-serif; font-size: 14px"
-                ></div>
+                ></div> -->
                 <div class="apexcharts-tooltip-series-group" style="order: 1">
                   <span
                     class="apexcharts-tooltip-marker"
@@ -630,7 +606,7 @@
             </div>
           </div>
         </div>
-        <div class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8">
+        <div class="w-full rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8">
           <div class="mb-4 flex items-center justify-between">
             <div>
               <h3 class="mb-2 text-xl font-bold text-gray-900">
@@ -692,7 +668,7 @@
                         <td
                           class="whitespace-nowrap p-4 text-sm font-semibold text-gray-900"
                         >
-                          $2300
+                          €2300
                         </td>
                       </tr>
                       <tr class="bg-gray-50">
@@ -710,7 +686,7 @@
                         <td
                           class="whitespace-nowrap p-4 text-sm font-semibold text-gray-900"
                         >
-                          -$670
+                          -€670
                         </td>
                       </tr>
                       <tr>
@@ -728,7 +704,7 @@
                         <td
                           class="whitespace-nowrap p-4 text-sm font-semibold text-gray-900"
                         >
-                          $234
+                          €234
                         </td>
                       </tr>
                       <tr class="bg-gray-50">
@@ -746,7 +722,7 @@
                         <td
                           class="whitespace-nowrap p-4 text-sm font-semibold text-gray-900"
                         >
-                          $5000
+                          €5000
                         </td>
                       </tr>
                       <tr>
@@ -764,7 +740,7 @@
                         <td
                           class="whitespace-nowrap p-4 text-sm font-semibold text-gray-900"
                         >
-                          $2300
+                          €2300
                         </td>
                       </tr>
                       <tr class="bg-gray-50">
@@ -782,7 +758,7 @@
                         <td
                           class="whitespace-nowrap p-4 text-sm font-semibold text-gray-900"
                         >
-                          $560
+                          €560
                         </td>
                       </tr>
                       <tr>
@@ -800,7 +776,7 @@
                         <td
                           class="whitespace-nowrap p-4 text-sm font-semibold text-gray-900"
                         >
-                          $1437
+                          €1437
                         </td>
                       </tr>
                     </tbody>
@@ -819,7 +795,7 @@
             <div class="flex-shrink-0">
               <span
                 class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl"
-                >$2,340</span
+                >€2,340</span
               >
               <h3 class="text-base font-normal text-gray-500">
                 Earnings this week
@@ -940,7 +916,7 @@
                   <div
                     class="inline-flex items-center text-base font-semibold text-gray-900"
                   >
-                    $320
+                    €320
                   </div>
                 </div>
               </li>
@@ -964,7 +940,7 @@
                   <div
                     class="inline-flex items-center text-base font-semibold text-gray-900"
                   >
-                    $3467
+                    €3467
                   </div>
                 </div>
               </li>
@@ -988,7 +964,7 @@
                   <div
                     class="inline-flex items-center text-base font-semibold text-gray-900"
                   >
-                    $67
+                    €67
                   </div>
                 </div>
               </li>
@@ -1012,7 +988,7 @@
                   <div
                     class="inline-flex items-center text-base font-semibold text-gray-900"
                   >
-                    $2367
+                    €2367
                   </div>
                 </div>
               </li>
@@ -1036,7 +1012,7 @@
                   <div
                     class="inline-flex items-center text-base font-semibold text-gray-900"
                   >
-                    $367
+                    €367
                   </div>
                 </div>
               </li>
@@ -1238,3 +1214,10 @@
     </div>
   </NuxtLayout>
 </template>
+<script setup lang="ts">
+import { useWalletStore } from '@/store/wallets'
+
+const { fetchAllWallets } = useWalletStore()
+
+fetchAllWallets()
+</script>
